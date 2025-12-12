@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cutebaby store — Soft & Cute Baby Accessories</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#" class="logo">Cutebaby store</a>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Christmas</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="cart" href="#">Cart (0)</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Welcome to Cutebaby – Soft & Cute Baby Accessories</h1>
+          <p>Browse our latest products and discover soft, cosy items for babies and pets.</p>
+          <a class="btn" href="#">Shop all</a>
+        </div>
+        <div class="hero-image">
+          <img src="./image/family colthes.jpg" alt="Baby products hero">
+        </div>
+      </div>
+    </section>
+
+    <!-- Collections / Products -->
+    <section class="products container" aria-label="Featured products">
+      <h2>Christmas Wear</h2>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="./image/Younger baby male.jpg" alt="Baby Pet Festive Outfit">
+          <h3>Baby Pet Festive Outfit</h3>
+          <p class="price">£2.20</p>
+          <button class="add">Add</button>
+        </article>
+
+        <article class="product-card">
+          <img src="./image/female baby.jpg" alt="Baby family christmas">
+          <h3>Baby family christmas</h3>
+          <p class="price">£12.00</p>
+          <button class="add">Add</button>
+        </article>
+
+        <article class="product-card">
+          <img src="./image/Baby Bamboo Christmas Onesie Zipper red and green.jpg" alt="Baby christmas zipper">
+          <h3>Baby christmas zipper</h3>
+          <p class="price">£2.00</p>
+          <button class="add">Add</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Promo -->
+    <section class="promo container">
+      <h2>Little Wonders, Big Winter Warmth</h2>
+      <p>Special secret gifts with value up to $50 for the first 100 orders — starting 28th November.</p>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials container">
+      <h2>What Our Customers Say</h2>
+      <div class="test-grid">
+        <blockquote class="test">
+          <p>“Absolutely love these Baby Soft Shoes! Perfect fit, super soft, and arrived earlier than expected.”</p>
+          <cite>Semiat A, Lagos</cite>
+        </blockquote>
+
+        <blockquote class="test">
+          <p>"Bought two items — the baby bag and Christmas outfit — and both are perfect! The materials feel premium."</p>
+          <cite>Jessica R, Manchester</cite>
+        </blockquote>
+
+        <blockquote class="test">
+          <p>"The Baby Feeding Set is exactly as described. Customer service was also very helpful."</p>
+          <cite>Aisha O, London</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter container">
+      <h2>Join our email list</h2>
+      <p>Get exclusive deals and early access to new products.</p>
+      <form class="newsletter-form" action="#" method="post">
+        <input type="email" name="email" placeholder="Email" required />
+        <button class="btn" type="submit">Join us now!</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>© <span id="year"></span> Cutebaby store</p>
+        <p><a href="#">Privacy policy</a> • <a href="#">Refund policy</a> • <a href="#">Shipping policy</a></p>
+      </div>
+      <div class="socials">
+        <a href="#" aria-label="TikTok">TikTok</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // small helper
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
